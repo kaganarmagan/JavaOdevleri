@@ -9,10 +9,15 @@ public class EbobEkok {
         j= input.nextInt();
         System.out.print("İkinci sayıyı giriniz : ");
         k = input.nextInt();
+        int b= Math.min(k, j);
 
-        while(i<=j||i<=k){
-            if(j%i==0&&k%i==0) t = i;
-            i++;
+        while(b>0){
+            if(j%b==0&&k%b==0) {
+                t = b;
+                break;
+            } else{
+             b--;
+            }
         }
         int t2=j*k/t;
         System.out.println("EBOB :"+t+"\n"+ "EKOK :"+t2 );
