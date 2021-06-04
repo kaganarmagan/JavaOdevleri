@@ -6,7 +6,7 @@ public class Fighter {
     int weight;
     double dodge;
 
-    public Fighter(String name, int damage, int health, int weight, double dodge) {
+    Fighter(String name, int damage, int health, int weight, double dodge) {
         this.name = name;
         this.damage = damage;
         this.health = health;
@@ -14,7 +14,7 @@ public class Fighter {
         this.dodge = dodge;
     }
 
-    public int hit(Fighter foe) {
+    int hit(Fighter foe) {
         System.out.println("------------");
         System.out.println(this.name + " => " + foe.name + " " +  this.damage + " hasar vurdu.");
 
@@ -29,7 +29,7 @@ public class Fighter {
         return foe.health - this.damage;
     }
 
-    public boolean dodge() {
+    boolean dodge() {
         double randomValue = Math.random() * 100;  //0.0 to 99.9
         return randomValue <= this.dodge;
     }

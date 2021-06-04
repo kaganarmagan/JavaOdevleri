@@ -53,11 +53,11 @@ class Ring {
 
         }
 
-        public boolean checkWeight() {
+        boolean checkWeight() {
             return (f1.weight >= minWeight && f1.weight <= maxWeight) && (f2.weight >= minWeight && f2.weight <= maxWeight);
         }
 
-        public boolean isWin() {
+        boolean isWin() {
             if (f1.health == 0) {
                 System.out.println("Maçı Kazanan : " + f2.name);
                 return true;
@@ -70,7 +70,7 @@ class Ring {
         }
 
 
-        public void printScore() {
+        void printScore() {
             System.out.println("------------");
             System.out.println(f1.name + " Kalan Can \t:" + f1.health);
             System.out.println(f2.name + " Kalan Can \t:" + f2.health);
