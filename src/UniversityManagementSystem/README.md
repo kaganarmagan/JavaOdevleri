@@ -8,5 +8,5 @@
 
 * Her çalışan bir ofiste çalışır.
 ## Image
-[Diagram](/UMS.png)
+[Diagram](UMS.png)
 # DIAGRAM
