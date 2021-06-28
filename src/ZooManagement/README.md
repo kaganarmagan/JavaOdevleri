@@ -20,4 +20,4 @@ Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bi
 
 ## Image
 ![Diagram](ZM.png)
-#============== DIAGRAM ==============
+# ================== DIAGRAM ==================
