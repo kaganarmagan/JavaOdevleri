@@ -1,7 +1,5 @@
 package ActionGame.Obstacle;
 
-import java.util.Random;
-
 public class Obstacle {
     private int id;
     private String name;

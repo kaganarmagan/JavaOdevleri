@@ -1,6 +1,7 @@
 package ActionGame;
 
-import ActionGame.Tool.*;
+import ActionGame.Tool.Armor;
+import ActionGame.Tool.Weapon;
 
 
 public class Inventory {

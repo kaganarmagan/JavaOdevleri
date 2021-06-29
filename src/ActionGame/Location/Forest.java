@@ -1,6 +1,6 @@
 package ActionGame.Location;
 
-import ActionGame.Characters.*;
+import ActionGame.Characters.Player;
 import ActionGame.Obstacle.*;
 
 public class Forest extends BattleLoc{
@@ -11,7 +11,7 @@ public class Forest extends BattleLoc{
         super(player, "Orman");
         this.vampires=new Obstacle[random.nextInt(3)+1];
         for(int i=0;i< vampires.length;i++){
-            vampires[i]=new Zombie();
+            vampires[i]=new Vampire();
         }
 
     }

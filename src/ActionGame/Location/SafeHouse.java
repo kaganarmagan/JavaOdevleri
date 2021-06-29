@@ -3,6 +3,7 @@ package ActionGame.Location;
 import ActionGame.Characters.*;
 
 
+
 public class SafeHouse extends SafeLoc {
     public SafeHouse(Player player ) {
         super(player,"Güvenli Ev");

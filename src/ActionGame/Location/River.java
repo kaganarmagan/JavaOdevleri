@@ -4,13 +4,15 @@ import ActionGame.Characters.Player;
 import ActionGame.Obstacle.*;
 
 
+
+
 public class River extends BattleLoc{
     Obstacle[] bears;
     public River(Player player) {
         super(player,"Nehir");
         this.bears=new Obstacle[random.nextInt(3)+1];
         for(int i=0;i< bears.length;i++){
-            bears[i]=new Zombie();
+            bears[i]=new Bear();
         }
     }
     @Override

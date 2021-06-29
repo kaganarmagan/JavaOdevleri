@@ -1,7 +1,8 @@
 package ActionGame.Location;
 
 import ActionGame.Characters.Player;
-import ActionGame.Obstacle.*;
+import ActionGame.Obstacle.Obstacle;
+import ActionGame.Obstacle.Zombie;
 
 
 public class Cave extends BattleLoc{

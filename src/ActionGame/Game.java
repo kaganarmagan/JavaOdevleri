@@ -3,7 +3,6 @@ package ActionGame;
 import ActionGame.Characters.Player;
 import ActionGame.Location.*;
 
-
 import java.util.Scanner;
 
 public class Game {
