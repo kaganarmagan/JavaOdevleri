@@ -9,12 +9,12 @@ Java ile metin tabanlı bir macera oyunu yapıyoruz.
 |  Şovalye |   3|  8 | 24  |  5 |
 
 ### CANAVARLAR
-|CANAVAR |   ID |  Hasar | Sağlık  | Para  |
+|CANAVAR |   ID |  Hasar | Sağlık  | Ödül  |
 |---|---|---|---|---|
-| Zombi  |  1 | 3 |  10 | 4  |
-|  Vampir|2   |  4 | 14  | 7 |
-|  Ayı|   3|  7 | 20  |  12 |
-
+| Zombi  |  1 | 3 |  10 | 4  para|
+|  Vampir|2   |  4 | 14  | 7 para |
+|  Ayı|   3|  7 | 20  |  12 para|
+|Yılan|4|3-6|12|Silah/Zırh/Para|
 
 ### SİLAHLAR
 |SİLAH|   ID |  Hasar |  Para  |
@@ -33,6 +33,7 @@ Java ile metin tabanlı bir macera oyunu yapıyoruz.
 ### MEKANLAR
 * #### Güvenli Ev
      * Özellik : Can Yenileniyor
+     * Oyunu sonlandırmak için en son gelinmesi gereken yer
 * #### Mağara
     * Canavar : Zombi (1-3 Adet)
     
@@ -53,6 +54,13 @@ Java ile metin tabanlı bir macera oyunu yapıyoruz.
     * Özellik : Savaş + Ganimet
 
     * Eşya : Su (Water)
+
+* #### Maden
+    * Canavar : Yılan (1-5 Adet)
+
+    * Özellik : Savaş + Ganimet
+
+    * Eşya : Silah/Zırh/Para
 
 * #### Mağaza
     * Özellik : Destekleyici Eşyalar Satın Almak
